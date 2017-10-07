@@ -295,16 +295,17 @@
 			margin-right: 5%;
 			margin-top: 40px;
 			text-align: left;
+			width: 95%;
 		}
 
 		.itsyaboi {
-			height: 90vh; 
+			height: 100vh; 
 		}
 
 		.infoLine {
 			margin-left: 4px; 
-			margin-top: 12px; 
-			letter-spacing: 4px
+			margin-top: 20px; 
+			letter-spacing: 3px
 		}
 
 		.icon{
@@ -318,7 +319,7 @@
 		.iconContainer {
 			text-align: center;
 			float: none;
-			margin-top: 15vh; 
+			margin-top: 20vh; 
 			margin-left: 6px; 
 			font-size: 1.2em;
 		}
@@ -372,7 +373,7 @@
 
 	@media screen and (max-width: 736px) {
 		h1 {
-			font-size: 3.5em;
+			font-size: 2.2em;
 			letter-spacing: 0.21em;
 			margin: 0em;
 			text-transform: uppercase;
