@@ -218,6 +218,15 @@
 		user-select: none;
 	}
 
+	.imagethumb img {
+		height: 17%;
+		width: 17%;
+		/* border-radius: 3%; */
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+
 	#main .info {
 		
 		float: left;
