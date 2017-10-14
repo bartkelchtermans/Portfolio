@@ -280,9 +280,24 @@
 		user-select: none;
 	}
 
-	.imagethumb img {
+	.imagethumb {
 		height: 17%;
 		width: 17%;
+		/* border-radius: 3%; */
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		border: 2px solid transparent;
+	}
+
+	.imagethumb:hover {
+		border: 2px solid #34a58e;
+		cursor:pointer;
+	}
+
+	.imagepreview {
+		height: 110%;
+		width: 110%;
 		/* border-radius: 3%; */
 		float: left;
 		margin-right: 20px;
@@ -292,7 +307,7 @@
 	#main .info {
 		
 		float: left;
-		margin-left: 150px;
+		margin-left: 10%;
 		margin-top: 40px;
 		text-align: left;
 	}
