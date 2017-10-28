@@ -387,7 +387,7 @@
 			display: block;
 			float: left;
 			margin-left: 5%;
-			margin-right: 5%;
+			padding-right: 5%;
 			margin-top: 40px;
 			text-align: left;
 			width: 95%;
@@ -398,7 +398,7 @@
 		}
 
 		.icon{
-			margin-top: 12px;
+			margin-top: 7px;
 			font-size: 140%;
 			margin-left: 0px;
 			margin-right: 20px;
@@ -1744,6 +1744,26 @@
 		.hidden-sm {
 			display: block;
 		}
+		.half-sm {
+			width: 50%;
+		}
+		.container {
+			width: 90%
+		}
+		.collumn-right {
+			padding-right: 20%
+		}
+		.project-title {
+			margin-top: -40px;
+		}
+		.project-body {
+			width: 64vw; 
+			height: 100vh; 
+			float: left; 
+			overflow-y: auto; 
+			margin-left: auto; 
+			padding-right: 9%;
+		}
 	}
 	@media screen and (max-width: 800px) {
 		.hidden-sm {
@@ -1752,6 +1772,35 @@
 		.visible-sm {
 			display: block;
 		}
+		.half-sm {
+			width: 100%;
+			padding-right: 10px;
+		}
+		.end-page {
+			margin-bottom: 50px;
+		}
+		.container{
+			width:100%
+		}
+		.collumn-right {
+			padding-right: 0%
+		}
+		.project-title{
+			margin-top: -10px
+		}
+		.project-body {
+			height: 100vh; 
+			float: left; 
+			overflow-y: auto; 
+			margin-left: auto; 
+			padding-right: 5%;
+		}
+	}
+
+	.collumn-right {
+		width:70%; 
+		text-align: right; 
+		float:right; 
 	}
 
 	#main {
