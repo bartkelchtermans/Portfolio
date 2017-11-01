@@ -5,8 +5,7 @@
 	 \_/  \___/_/\_\_____|_____| |____/|_| |_/_/   \_\____/|_____|_| \_\
 
   VoxelShader.fx
-  FirstName: Bart
-  LastName: Kelchtermans
+  Author: Bart Kelchtermans
   Date: August, 2016
 */
 
