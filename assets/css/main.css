@@ -3,6 +3,13 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,600');
 
+.skill {
+	font-size: 12pt; font-weight: 500; padding-left: 3px; padding-right: 3px; 
+	/* margin-right: 4px; margin-bottom: 4px; */
+	border: 1px solid #a0a0a1;
+	font-size: 12pt; font-weight: 500;
+}
+
 .pace {
 	-webkit-pointer-events: none;
 	pointer-events: none;
